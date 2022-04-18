@@ -155,7 +155,7 @@ export default class InvoiceView extends Vue {
   }
 
   @Watch()
-  editInvoice() {
+  editInvoiceChange() {
     if (!this.editInvoice) {
       this.currentInvoice = this.currentInvoiceArray[0];
     }
